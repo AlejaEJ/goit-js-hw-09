@@ -3,6 +3,7 @@ import "flatpickr/dist/flatpickr.min.css";
 
 const datetimePicker = document.querySelector('#datetime-picker');
 const startButton = document.querySelector('[data-start]');
+startButton.disabled = true;
 const daysElement = document.querySelector('[data-days]');
 const hoursElement = document.querySelector('[data-hours]');
 const minutesElement = document.querySelector('[data-minutes]');
